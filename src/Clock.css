@@ -1,5 +1,5 @@
 .clock-div {
-  /*border: solid 1px mistyrose;*/
+  /* border: solid 1px mistyrose; */
   margin: auto;
   display: -webkit-flex;
   display: -ms-flex;
@@ -18,5 +18,5 @@
   display: -ms-flex;
   display: flex;
   justify-content: center;
-  /*border: solid 1px mistyrose;*/
+  /* border: solid 1px mistyrose; */
 }
