@@ -7,11 +7,8 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-<<<<<<< HEAD
       	<Quote  />
-=======
         <Clock />
->>>>>>> @wilsx2rt
       </div>
     );
   }
