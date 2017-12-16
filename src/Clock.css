@@ -1,0 +1,22 @@
+.clock-div {
+  /*border: solid 1px mistyrose;*/
+  margin: auto;
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.clock-el {
+  color: white;
+  font-size: 10em;
+  width:450px;
+  background: rgba(192, 192, 192, .4);
+  -ms-align-self: center;
+  align-self: center;
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  justify-content: center;
+  /*border: solid 1px mistyrose;*/
+}

@@ -3,7 +3,11 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+<<<<<<< HEAD
     "axios": "^0.17.1",
+=======
+    "normalize.css": "^7.0.0",
+>>>>>>> @wilsx2rt
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
     "react-scripts": "1.0.17"
