@@ -2,7 +2,10 @@
 	display: block;
 	margin: 0 auto;
 	font-family: Helvetica, sans-serif;
-	margin-top: 75vh;
+	color: white;
+	background: rgba(192, 192, 192, .4);
+	margin-top: 40vh;
 	width: 50%;
 	text-align: center;
+	/* border: solid 1px mistyrose; */
 }
