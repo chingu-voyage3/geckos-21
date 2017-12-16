@@ -1,0 +1,8 @@
+.quote-el {
+	display: block;
+	margin: 0 auto;
+	font-family: Helvetica, sans-serif;
+	margin-top: 75vh;
+	width: 50%;
+	text-align: center;
+}
