@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
 import './App.css';
 
-import ToDoButton from './Buttons/ToDoButton';
-import WeatherButton from './Buttons/WeatherButton';
-import LinksButton from './Buttons/LinksButton';
-import SettingsButton from './Buttons/SettingsButton';
+import ToDoButton from './ToDoButton';
+import WeatherButton from './WeatherButton';
+import LinksButton from './LinksButton';
+import SettingsButton from './SettingsButton';
 
 
 class App extends Component {
