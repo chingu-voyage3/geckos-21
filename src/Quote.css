@@ -1,11 +1,14 @@
+.quote-div {
+	display: -webkit-flex;
+	display: -ms-flex;
+	display: flex;
+	justify-content: center;
+}
 .quote-el {
+	font-size: 1.25em;
 	display: block;
-	margin: 0 auto;
 	font-family: Helvetica, sans-serif;
 	color: white;
-	background: rgba(192, 192, 192, .4);
-	margin-top: 40vh;
 	width: 50%;
 	text-align: center;
-	/* border: solid 1px mistyrose; */
 }

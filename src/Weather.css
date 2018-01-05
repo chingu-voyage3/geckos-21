@@ -1,0 +1,42 @@
+* {
+  color: white;
+  font-weight: bold;
+}
+
+i{
+  margin-right: 5px;
+}
+/* outer div */
+.weather-flex{
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  padding-right: 15px;
+  align-items: flex-end;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  border: solid green 1px;
+}
+/* widget layout container */
+.weather-layout {
+  margin-right: 5px;
+}
+
+.flex-top {
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.weather-name{
+  margin-top: -5px;
+  font-size: 10px;
+  text-align: center;
+}
+
+.temp{
+  font-size: 20px;
+}

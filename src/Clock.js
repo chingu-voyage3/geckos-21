@@ -2,8 +2,8 @@ import React, { Component } from 'react';
 import './Clock.css';
 
 class Clock extends Component {
-  constructor(props) {
-    super(props);
+  constructor() {
+    super();
     this.state = {
       time: function(){
         let dateObj = new Date();
@@ -55,7 +55,7 @@ class Clock extends Component {
   render () {
     return (
       <div className="clock-div">
-        <h1 className="clock-el">{this.state.time()}</h1>
+        {this.state.time()}
       </div>
     );
   }
