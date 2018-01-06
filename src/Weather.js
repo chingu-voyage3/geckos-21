@@ -53,7 +53,7 @@ class Weather extends Component {
 
   render() {
     return (
-    <div className='weather-flex'>
+    <div className='weather-wrapper'>
       <div className="weather-layout">
         <div className="flex-top">
           <i className={this.state.weather.icon}></i>

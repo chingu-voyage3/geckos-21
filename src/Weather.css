@@ -7,7 +7,7 @@ i{
   margin-right: 5px;
 }
 /* outer div */
-.weather-flex{
+.weather-wrapper{
   display: -webkit-flex;
   display: -ms-flex;
   display: flex;
@@ -16,7 +16,8 @@ i{
   -webkit-flex-direction: column;
   -ms-flex-direction: column;
   flex-direction: column;
-  border: solid green 1px;
+  -ms-align-self: center;
+  align-self: center;
 }
 /* widget layout container */
 .weather-layout {
@@ -38,5 +39,5 @@ i{
 }
 
 .temp{
-  font-size: 20px;
+  font-size: 1.25em;
 }

@@ -23,7 +23,6 @@ body {
 }
 
 .top-container{
-  border: solid red 1px;
   display: -webkit-flex;
   display: -ms-flex;
   display: flex;
