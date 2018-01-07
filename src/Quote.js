@@ -10,7 +10,7 @@ const config = {
   }
 }
 
-class Quote extends React.Component {
+class Quote extends Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -46,7 +46,9 @@ class Quote extends React.Component {
   render(){
     return (
       <div className="quote-div">
-         <h1 className="quote-el">{this.state.data} {this.state.author}</h1>
+         <div className="quote-el">
+           {this.state.data} {this.state.author}
+         </div>
       </div>
       )
   }
