@@ -5,6 +5,7 @@ import Clock from './Clock';
 import Weather from './Weather';
 import Greeting from './Greeting';
 import Search from './Search';
+import Container from './Container';
 
 class App extends Component {
 
@@ -17,9 +18,12 @@ class App extends Component {
       </div>
       <div className="middle-container">
         <Clock/>
-          <Greeting />
+        <Greeting />
       </div>
-      <Quote/>
+      <div className="bottom-container">
+        <Container />
+        <Quote/>
+      </div>
     </div>);
   }
 }

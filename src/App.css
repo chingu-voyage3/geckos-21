@@ -19,7 +19,7 @@ body {
   -webkit-flex-direction: column;
   -ms-flex-direction: column;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-between;
 }
 
 .top-container{
@@ -32,13 +32,15 @@ body {
 }
 
 .middle-container{
-  margin: 30vh 0;
+
 }
 
-.middle-sub-container{
+.bottom-container{
   display: -webkit-flex;
   display: -ms-flex;
   display: flex;
-  border: solid red 1px;
-
+  justify-content: center;
+  -ms-align-items: flex-end;
+  align-items: flex-end;
+  padding: 30px 30px;
 }
