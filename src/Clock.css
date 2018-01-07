@@ -1,0 +1,10 @@
+.clock-div {
+  font-size: 9em;
+  margin: auto;
+  height: 15vh;
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

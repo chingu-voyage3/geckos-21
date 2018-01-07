@@ -10,14 +10,14 @@ const config = {
   }
 }
 
-class Quote extends React.Component {
+class Quote extends Component {
   constructor(props) {
     super(props);
     this.state = {
       quote: [],
       author: []
      };
-  } 
+  }
 
   componentWillMount() {
     this.setState(()=>{
@@ -30,10 +30,10 @@ class Quote extends React.Component {
 
   componentDidMount() {
     axios.get("https://andruxnet-random-famous-quotes.p.mashape.com/?cat=", config)
-    .then((response) => { 
+    .then((response) => {
       this.setState(()=>{
         return {
-          data: "'" + response.data.quote + "'",  
+          data: "'" + response.data.quote + "'",
           author:"- " + response.data.author
         }
       })
@@ -42,11 +42,13 @@ class Quote extends React.Component {
       console.log("error: " + error);
     })
   }
- 
+
   render(){
     return (
       <div className="quote-div">
-         <h1 className="quote-el">{this.state.data} {this.state.author}</h1>
+         <div className="quote-el">
+           {this.state.data} {this.state.author}
+         </div>
       </div>
       )
   }
