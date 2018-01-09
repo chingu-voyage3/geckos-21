@@ -5,7 +5,8 @@ import Clock from './Clock';
 import Weather from './Weather';
 import Greeting from './Greeting';
 import Search from './Search';
-import Container from './Container';
+import ToDo from './ToDo';
+import Links from './Links';
 
 class App extends Component {
 
@@ -21,8 +22,9 @@ class App extends Component {
         <Greeting />
       </div>
       <div className="bottom-container">
-        <Container />
+        <Links />
         <Quote/>
+        <ToDo />
       </div>
     </div>);
   }
