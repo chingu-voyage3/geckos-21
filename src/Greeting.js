@@ -18,15 +18,13 @@ class Greeting extends Component {
           greet: 'Good Morning'
         }
       )
-    } else if (greeting.hours >= 12) {
+    } else if (greeting.hours < 17) {
       this.setState(
         greeting = {
           greet: 'Good Afternoon'
         }
       )
-    } if (greeting.hours >= 17) {
-
-    } else {
+    } else if (greeting.hours >= 17) {
       this.setState(
         greeting = {
           greet: 'Good Evening'

@@ -28,7 +28,7 @@ class Weather extends Component {
       var weather = {...this.state.weather};
 
       var URL = "https://api.openweathermap.org/data/2.5/weather?lat="+ lat + "&lon=" + lon + "&units=metric&appid=4def1e3b863c46218b6dc8afb5451a24";
-      console.log('got location');
+      // console.log('got location');
 
       fetch(URL)
       .then((res) => res.json())
@@ -40,7 +40,7 @@ class Weather extends Component {
           icon: "owi owi-2x owi-" + data.weather[0].icon,
         };
         this.setState({ weather })
-        console.log(this.state.weather.temp);
+        // console.log(this.state.weather.temp);
       })
     };
 

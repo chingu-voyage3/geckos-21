@@ -1,7 +1,7 @@
 .greeting-wrapper {
   font-size: 2em;
-  margin: auto;
-  height: 8vh;
+  margin-top: 30px;;
+  height: 50px;
   display: -webkit-flex;
   display: -ms-flex;
   display: flex;
