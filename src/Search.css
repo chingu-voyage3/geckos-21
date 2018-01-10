@@ -1,0 +1,33 @@
+button, input{
+  background: transparent;
+  border: none;
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+}
+
+button:focus, input:focus{
+  outline: none;
+}
+
+input:focus{
+  outline: 
+}
+
+input{
+  font-size: 1.25em;
+}
+
+.FaSearch{
+  font-size: 2em;
+  cursor: pointer;
+}
+
+.search-wrapper{
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  margin-left: 15px;
+  -ms-align-self: center;
+  align-self: center;
+}

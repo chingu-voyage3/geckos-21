@@ -1,0 +1,17 @@
+.quote-div {
+	display: -webkit-flex;
+	display: -ms-flex;
+	display: flex;
+	justify-content: center;
+	min-width: 50%;
+	position: relative;
+}
+.quote-el {
+	font-size: 1.10em;
+	font-weight: 300;
+	display: block;
+	font-family: Helvetica, sans-serif;
+	color: white;
+	width: 80%;
+	text-align: center;
+}
