@@ -1,5 +1,12 @@
-.links-wrapper{
-  border: solid red 1px;
+.links-popup-container{
+  background-color: rgba(0, 0, 0, 0.6);
+  color: white;
+  z-index: 1;
+  padding: 10px;
+}
+
+.react-parent{
   position: absolute;
   left: 20px;
+  bottom: 30px;
 }
