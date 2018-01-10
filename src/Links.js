@@ -1,12 +1,21 @@
 import React from 'react';
 import './Links.css';
-import Container from './Container';
 
 class Links extends React.Component {
+  constructor(){
+    super();
+    this.state = {
+      links: {
+        gmail: "https://www.gmail.com"
+      }
+    }
+  }
   render() {
     return (
       <div className="react-parent">
-        <Container className="links-container" />
+        <div className="links-popup-container">
+          {this.state.links.gmail}
+        </div>
         <div className="links-wrapper">Links</div>
       </div>
     )
