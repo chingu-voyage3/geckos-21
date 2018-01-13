@@ -2,21 +2,24 @@ import React from 'react';
 import './Links.css';
 
 class Links extends React.Component {
-  constructor(){
-    super();
+  constructor(props){
+    super(props);
     this.state = {
-      links: {
-        gmail: "https://www.gmail.com"
-      }
+      active: false
     }
   }
+
+  toggleClass = () => {
+    
+  }
+
   render() {
     return (
       <div className="react-parent">
         <div className="links-popup-container">
-          {this.state.links.gmail}
+          <h1>some other thex</h1>
         </div>
-        <div className="links-wrapper">Links</div>
+        <button onClick={this.toggleClass} className="links-btn">Links</button>
       </div>
     )
   }

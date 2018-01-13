@@ -5,7 +5,10 @@ class ToDo extends React.Component {
   render () {
     return (
       <div className="todo-wrapper">
-        ToDo
+        <div className="todo-popup-container">
+          <h1>some other thex</h1>
+        </div>
+        <button className="todo-btn">ToDo</button>
       </div>
     )
   }
