@@ -18,6 +18,10 @@
   margin-bottom: 25px;
 }
 
+.todo-popup-container-hidden{
+  display: none;
+}
+
 .todo-btn{
   cursor: pointer;
 }

@@ -6,6 +6,10 @@
   margin-bottom: 25px;
 }
 
+.links-popup-container-hidden{
+  display: none;
+}
+
 .react-parent{
   position: absolute;
   left: 20px;
