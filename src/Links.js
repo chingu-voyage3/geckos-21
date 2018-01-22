@@ -1,5 +1,7 @@
 import React from 'react';
 import './Links.css';
+import '../node_modules/font-awesome/css/font-awesome.min.css';
+
 
 class Links extends React.Component {
   constructor(props){
@@ -24,7 +26,9 @@ class Links extends React.Component {
     return (
       <div className="react-parent">
         <div className={this.state.visible}>
-          <h1>some other thex</h1>
+          <a href="" target="_blank"><i className="fa fa-google"></i> Google</a>
+          <a href="" target="_blank"><i className="fa fa-github"></i> GitHub</a>
+          <a href="" target="_blank"><i className="fa fa-stack-overflow" aria-hidden="true"></i> Stack Overflow</a>
         </div>
         <button onClick={this.toggleClass} className="links-btn">Links</button>
       </div>

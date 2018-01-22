@@ -41,3 +41,16 @@ i{
 .temp{
   font-size: 1.25em;
 }
+
+.btn {
+  cursor: pointer;
+  font-size: 10px;
+  border: solid 1px white;
+  margin-left: 5px;
+  border-radius: 10px;
+  padding: 3px 8px;
+}
+
+.btn:hover {
+  color: lightgray;
+}

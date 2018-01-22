@@ -1,10 +1,27 @@
 .clock-div {
   font-size: 9em;
   margin: auto;
-  height: 150px;
+  height: 105px;
   display: -webkit-flex;
   display: -ms-flex;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.clock-div button {
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+  font-size: 10px;
+  padding: 3px 8px;
+  align-self: flex-end;
+  border: 1px solid white;
+  border-radius: 10px;
+}
+
+.clock-div button:hover {
+  color: lightgray;
 }
