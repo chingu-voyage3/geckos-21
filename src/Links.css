@@ -1,5 +1,32 @@
-.links-wrapper{
-  border: solid red 1px;
+a {
+  text-decoration: none;
+}
+.links-popup-container{
+  background-color: rgba(0, 0, 0, 0.6);
+  color: white;
+  z-index: 1;
+  padding: 10px;
+  margin-bottom: 25px;
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  flex-direction: column;
+}
+
+.links-popup-container-hidden{
+  display: none;
+}
+
+.react-parent{
   position: absolute;
   left: 20px;
+  bottom: 30px;
+}
+
+.links-btn{
+  cursor: pointer;
+}
+
+button:hover {
+  color: lightgray;
 }

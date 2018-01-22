@@ -32,7 +32,9 @@ class Search extends React.Component {
     this.setState({inputValue, searchURL});
   }
 
-  handleSubmit = () => {
+  handleSubmit = (event) => {
+    event.preventDefault();
+    window.open(this.state.searchURL, '_blank')
     console.log(this.state.searchURL);
   }
 
